@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index', indexx),
     path('malibu/', malibuu),
+    path('about/', AboutView.as_view())
 ]
